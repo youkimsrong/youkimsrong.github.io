@@ -1,0 +1,224 @@
+	*{padding: 0; margin: 0;}
+	body{
+		background-color: black;
+	}
+	
+	span{
+		text-transform: uppercase;
+		display: block;
+	}
+	@keyframes text{
+		0%{
+			width: 0ch;
+		}
+		50%{
+			width: 50ch;
+		}
+		75%{
+			width: 95ch;
+		}
+	}
+	.text1{
+		letter-spacing: 4px;
+		font-size: 15px;
+		color:white;
+		animation-delay: infinite;
+		animation: text 7s steps(95);
+		overflow: hidden;
+		width: 200ch;
+		white-space: nowrap;
+	}
+	.menu1{
+		position: fixed;
+		z-index: 10;
+		padding-top: 18px;
+		width: 1400px;
+		height: 30px;
+		background-color: black;
+	}
+	nav {
+		margin: auto;
+		position: fixed;
+		z-index: 9;
+		top: 45px;
+	}	
+	.menu2{	
+		height: 40px;
+		width: 1400px; 
+		padding-top: 4px;
+		background-color:black;
+	}
+	.slider{
+		margin-top: 55px;
+		padding-top:100px;
+		height: 450px;
+		width: 101%;
+		left:-1%;
+		position: absolute;
+		background-image: url(slider03.jpeg);
+		background-size: 100% 100%;
+		animation: slider 15s infinite linear;
+		}
+	@keyframes slider{
+		0%{background-image: url(slider03.jpeg);}
+		35%{background-image: url(slider04.jpeg);}
+		50%{background-image: url(slider06.jpg);}
+		75%{background-image: url(slider05.jpg);}
+	}
+	h2{
+		text-align: center;
+		color: white;
+	}
+	p{
+		color: white;
+		text-align: center;
+	}
+	a {
+		text-decoration: none;
+		font-size: 20px;
+		padding-right: 20px;
+		padding-left: 20px;
+		margin: 14px;
+		color: white;
+		font-family: open sans;
+	}
+	a.color{
+		color: red;
+	}
+	h3{
+		color: white;
+		font-size: 25px;
+	}
+
+	.movie-trailer{
+		padding: 620px 0px;
+	}
+	.movie1{
+		width: 22%;
+		height: auto;
+		margin-top: 27px;
+		margin-left: 12px;
+		margin-right: 12px;
+		float: left;
+		border: 2px solid white;
+		transition: transform 2s;
+	}
+	.movie1:hover{
+		transform: scale(1.1);
+	}
+	
+	@media all and (max-width: 1024px){	
+		*{padding: 0; margin: 0;}
+	body{
+		background-color: black;
+	}
+	
+	span{
+		text-transform: uppercase;
+		display: block;
+	}
+	@keyframes text{
+		0%{
+			width: 0ch;
+		}
+		50%{
+			width: 50ch;
+		}
+		75%{
+			width: 95ch;
+		}
+	}
+	.text1{
+		letter-spacing: 3px;
+		font-size: 11px;
+		color:white;
+		animation-delay: infinite;
+		animation: text 7s steps(95);
+		overflow: hidden;
+		width: 200ch;
+		white-space: nowrap;
+	}
+	.menu1{
+		position: fixed;
+		z-index: 10;
+		padding-top: 18px;
+		width: 1400px;
+		height: 30px;
+		background-color: black;
+	}
+	nav {
+		margin: auto;
+		position: fixed;
+		z-index: 9;
+		top: 45px;
+	}	
+	.menu2{	
+		height: 40px;
+		width: 1400px; 
+		padding-top: 4px;
+		background-color:black;
+	}
+	.slider{
+		margin-top: 55px;
+		padding-top:100px;
+		height: 450px;
+		width: 101%;
+		left:-1%;
+		position: absolute;
+		background-image: url(slider03.jpeg);
+		background-size: 100% 100%;
+		animation: slider 15s infinite linear;
+		}
+	@keyframes slider{
+		0%{background-image: url(slider03.jpeg);}
+		35%{background-image: url(slider04.jpeg);}
+		50%{background-image: url(slider06.jpg);}
+		75%{background-image: url(slider05.jpg);}
+	}
+	h2{
+		text-align: center;
+		color: white;
+	}
+	p{
+		color: white;
+		text-align: center;
+	}
+	a {
+		text-decoration: none;
+		font-size: 14px;
+		padding-right: 20px;
+		padding-left: 20px;
+		margin: 14px;
+		color: white;
+		font-family: open sans;
+	}
+	a.color{
+		color: red;
+	}
+	h3{
+		color: white;
+		font-size: 25px;
+	}
+
+	.movie-trailer{
+		padding: 620px 0px;
+	}
+	.movie1{
+		width: 22%;
+		height: auto;
+		margin-top: 27px;
+		margin-left: 12px;
+		margin-right: 12px;
+		float: left;
+		border: 2px solid white;
+		transition: transform 2s;
+	}
+	.movie1:hover{
+		transform: scale(1.1);
+	}
+	img{
+		float: left;
+		padding-left:10px;
+	}
+}
+	
